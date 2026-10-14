@@ -55,5 +55,36 @@ ServerEvents.recipes(event => {
                 ]
             )
         ]
-    ).loops(2).transitionalItem('powergrid:conductive_casin');
+    ).loops(2).transitionalItem('powergrid:conductive_casing');
+
+    event.recipes.create.mechanical_crafting(
+        '4x powergrid:generator_induction_rotor',
+        [
+            ' MCM ',
+            'MCICM',
+            'CISIC',
+            'MCICM',
+            ' MCM '
+        ],
+        {
+            M: 'powergrid:magnet',
+            C: 'powergrid:copper_coil',
+            I: 'tfc:metal/ingot/steel',
+            S: 'create:shaft',
+        }
+    );
+    event.recipes.create.mechanical_crafting(
+        'powergrid:generator_commutator',
+        [
+            'GSG',
+            'CSC',
+            'GDG',
+        ],
+        {
+            G: 'tfc_items:steel_gear',
+            C: 'powergrid:copper_coil',
+            S: 'create:shaft',
+            D: 'powergrid:device_connector'
+        }
+    )
 });
