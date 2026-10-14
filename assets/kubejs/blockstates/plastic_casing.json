@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "kubejs:block/plastic_casing", "y": 90 },
+    "facing=south": { "model": "kubejs:block/plastic_casing", "y": 270 },
+    "facing=east":  { "model": "kubejs:block/plastic_casing" },
+    "facing=west":  { "model": "kubejs:block/plastic_casing", "y": 180 },
+    "facing=up":    { "model": "kubejs:block/plastic_casing", "x": -90 },
+    "facing=down":  { "model": "kubejs:block/plastic_casing", "x": 90 }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "item.kubejs.n_semiconductor": "N-Semiconductor",
+  "item.kubejs.p_semiconductor": "P-Semiconductor",
+  "item.kubejs.silicon_ingot": "Silicon Ingot",
+  "fluid.kubejs.liqued_silicon": "Liquid Silicon",
+  "fluid_type.kubejs.liqued_silicon": "Liquid Silicon",
+  "item.kubejs.liqued_silicon_bucket": "Liquid Silicon Bucket",
+  "fluid.kubejs.exhaust": "Exhaust gas",
+  "block.kubejs.exhaust": "Exhaust gas",
+  "item.kubejs.exhaust_bucket": "Exhaust gas Bucket"
+}

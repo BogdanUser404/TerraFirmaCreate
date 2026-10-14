@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "kubejs:block/plastic_block",
+    "down": "kubejs:block/plastic_block",
+    "up": "kubejs:block/plastic_block",
+    "north": "kubejs:block/plastic_block",
+    "south": "kubejs:block/plastic_block",
+    "east": "kubejs:block/plastic_casing",
+    "west": "kubejs:block/plastic_block"
+  }
+}
