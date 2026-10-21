@@ -56,4 +56,8 @@ ServerEvents.recipes(event => {
             [Ingredient.of(ingot), Ingredient.of(ingot), Ingredient.of('tfc:powder/flux')]
         ).heated();
     });
+
+    event.recipes.createvintageneoforged.turning('create:whisk', 'tfc:metal/ingot/wrought_iron');
+    event.recipes.createvintageneoforged.turning('create:brass_hand', 'tfc:metal/sheet/brass');
+
 });

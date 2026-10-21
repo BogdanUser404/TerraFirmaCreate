@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
     .tier(2); //Minimum Bronze Tier
 
     event.recipes.tfc.quern( Item.of('tfc:powder/salt', 4), 'petrochem:salt_dust')
+    event.recipes.create.milling( Item.of('tfc:powder/salt', 4), 'petrochem:salt_dust')
 
     event.recipes.minecraft.crafting_shaped(
         '8x firmalife:sealed_bricks',
