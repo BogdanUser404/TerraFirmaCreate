@@ -12,7 +12,11 @@
   "block.kubejs.plastic_block": "Блок пластика",
   "item.kubejs.plastic_ignot": "Слиток пластика",
   "item.kubejs.plastic_sheet": "Лист пластика",
-  "ite.kubejs.plastic_bottle": "Пластиковая бутылка",
+  "item.kubejs.plastic_bottle": "Пластиковая бутылка",
+  "item.kubejs.silicon_boule": "Монокристал кремния",
+  "item.kubejs.silicon_wafer": "Кремниевая пластина",
+
+
   "item.tfc_items.bismuth_gear": "Висмутовая шестерня",
   "item.tfc_items.red_steel_nail": "Гвоздь из красной стали",
   "item.tfc_items.uranium_heavy_sheet": "Толстый урановый лист",

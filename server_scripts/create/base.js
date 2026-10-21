@@ -75,10 +75,6 @@ ServerEvents.recipes(event => {
             'tfc:rock/loose/andesite'
         ]
     );
-
-    event.remove({output: 'create:copper_sheet'});
-    event.remove({output: 'create:brass_sheet'});
-    event.remove({output: 'create:iron_sheet'});
     
 
     //Plastic case

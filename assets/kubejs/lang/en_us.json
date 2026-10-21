@@ -7,5 +7,7 @@
   "item.kubejs.liqued_silicon_bucket": "Liquid Silicon Bucket",
   "fluid.kubejs.exhaust": "Exhaust gas",
   "block.kubejs.exhaust": "Exhaust gas",
-  "item.kubejs.exhaust_bucket": "Exhaust gas Bucket"
+  "item.kubejs.exhaust_bucket": "Exhaust gas Bucket",
+  "item.kubejs.silicon_boule": "Silicon boule",
+  "item.kubejs.silicon_wafer": "Silicon Wafer"
 }

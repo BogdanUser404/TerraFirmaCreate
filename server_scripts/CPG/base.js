@@ -2,10 +2,21 @@
 //License: AGPL V3
 
 ServerEvents.recipes(event => {
-    event.remove({mod: 'powergrid'});
-    event.remove({mod: 'powerchip'});
+    [
+        'powergrid:copper_coil',
+        'powergrid:wire',
+        'powergrid:golden_wire',
+        'powergrid:generator_housing',
+        'powergrid:generator_induction_rotor',
+        'powergrid:generator_commutator',
+        'powergrid:generator_clutch'
+    ].forEach(item => {
+        event.remove({ output: item })
+    })
 
-    //Coil
+
+
+    //Coil1
     event.shapeless(
         'powergrid:copper_coil',
         [
@@ -27,6 +38,18 @@ ServerEvents.recipes(event => {
             'tfc_items:gold_wire'
         ]
     )
+
+    event.shaped(
+        'minecraft:coal_block',
+        [
+            'CCC',
+            'CCC',
+            'CCC'
+        ],
+        {
+            C: '#minecraft:coals'
+        }
+    );
 
     //Generators block
 
@@ -86,5 +109,79 @@ ServerEvents.recipes(event => {
             S: 'create:shaft',
             D: 'powergrid:device_connector'
         }
-    )
+    );
+
+    event.shaped(
+        'powergrid:generator_clutch',
+        [
+            'PPP',
+            'GSG',
+            'RBR'
+        ],
+        {
+            P: 'tfc_items:steel_heavy_sheet',
+            G: 'tfc_items:steel_gear',
+            S: 'create:shaft',
+            R: 'tfc_items:steel_screw',
+            B: 'create:mechanical_bearing',
+        }
+    );
+
+    event.recipes.create.sequenced_assembly(
+        Item.of('powergrid:electrical_gizmo'),
+        Item.of('powergrid:empty_circuit'),
+        [
+            event.recipes.create.deploying(
+                'powergrid:empty_circuit',
+                [
+                    'powergrid:empty_circuit',
+                    'tfc:metal/sheet/copper'
+                ],
+            ),
+            event.recipes.create.filling(
+                'powergrid:empty_circuit',
+                [
+                    'powergrid:empty_circuit',
+                    Fluid.of('powergrid:acid',100)
+                ],
+            ),
+            event.recipes.create.deploying(
+                'powergrid:empty_circuit',
+                [
+                    'powergrid:empty_circuit',
+                    'powergrid:bjt_npn',
+                ],
+            ),
+            event.recipes.create.deploying(
+                'powergrid:empty_circuit',
+                [
+                    'powergrid:empty_circuit',
+                    'powergrid:resistor',
+                ],
+            ),
+            event.recipes.create.deploying(
+                'powergrid:empty_circuit',
+                [
+                    'powergrid:empty_circuit',
+                    'powergrid:bjt_pnp',
+                ],
+            ),
+            event.recipes.create.deploying(
+                'powergrid:empty_circuit',
+                [
+                    'powergrid:empty_circuit',
+                    'powergrid:lv_button',
+                ],
+            ),
+            event.recipes.create.filling(
+                'powergrid:empty_circuit',
+                [
+                    'powergrid:empty_circuit',
+                    Fluid.of('tfc:metal/solder',100)
+                ],
+            ),
+        ]
+    ).transitionalItem('powergrid:empty_circuit');
+
+    
 });

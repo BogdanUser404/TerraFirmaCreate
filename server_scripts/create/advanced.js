@@ -63,4 +63,61 @@ ServerEvents.recipes(event => {
         C: 'create:andesite_casing',
         E:'#c:gears/wrought_iron',
     });
+
+
+    event.recipes.create.sequenced_assembly(
+        Item.of('create:electron_tube'),
+        Item.of('kubejs:plastic_sheet'),
+        [
+            event.recipes.create.deploying(
+                'kubejs:plastic_sheet',
+                [
+                    'kubejs:plastic_sheet',
+                    'powergrid:bjt_npn',
+                ]
+            ),
+            event.recipes.create.deploying(
+                'kubejs:plastic_sheet',
+                [
+                    'kubejs:plastic_sheet',
+                    'powergrid:diode',
+                ]
+            ),
+            event.recipes.create.deploying(
+                'kubejs:plastic_sheet',
+                [
+                    'kubejs:plastic_sheet',
+                    'powergrid:bjt_pnp',
+                ]
+            )
+        ]
+    ).transitionalItem('kubejs:plastic_sheet');
+
+    event.recipes.create.sequenced_assembly(
+        Item.of('create:precision_mechanism'),
+        Item.of('kubejs:plastic_sheet'),
+        [
+            event.recipes.create.deploying(
+                'kubejs:plastic_sheet',
+                [
+                    'kubejs:plastic_sheet',
+                    'create:electron_tube',
+                ]
+            ),
+            event.recipes.create.deploying(
+                'kubejs:plastic_sheet',
+                [
+                    'kubejs:plastic_sheet',
+                    'create:electron_tube',
+                ]
+            ),
+            event.recipes.create.deploying(
+                'kubejs:plastic_sheet',
+                [
+                    'kubejs:plastic_sheet',
+                    'create:electron_tube',
+                ]
+            ),
+        ]
+    ).transitionalItem('kubejs:plastic_sheet');
 });
