@@ -4,10 +4,10 @@
 ServerEvents.recipes(event => {
     event.remove({output: 'create:copper_sheet'});
     event.remove({output: 'create:brass_sheet'});
-    event.remove({output: 'create:brass_ignot'});
+    event.remove({output: 'create:brass_ingot'});
     event.remove({output: 'create:iron_sheet'});
     event.remove({output: 'create:golden_sheet'});
-    event.remove({output: 'create:zinc_ignot'});
+    event.remove({output: 'create:zinc_ingot'});
     event.remove({output: 'create:polished_rose_quartz'});
 
     event.remove({output: 'powergrid:zinc_sheet'});

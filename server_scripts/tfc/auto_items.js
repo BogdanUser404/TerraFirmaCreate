@@ -44,7 +44,6 @@ ServerEvents.recipes(event => {
         event.recipes.create.compacting(heavySheet, [Ingredient.of(sheet), Ingredient.of(doubleSheet)]).heated();
 
         event.recipes.create.pressing(sheet, doubleIngot);
-        event.recipes.create.pressing(ingot, doubleIngot);
 
         event.recipes.create.compacting(
             doubleSheet,
