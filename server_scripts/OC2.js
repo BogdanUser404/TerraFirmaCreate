@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
                 ['powergrid:electrical_gizmo', Fluid.of('tfc:metal/solder',10)]
             )
         ]
-    ).transitionalItem('kubejs:plastic_sheet').loops(15)
+    ).transitionalItem('powergrid:electrical_gizmo').loops(15)
 
     event.recipes.create.sequenced_assembly(
         Item.of('oc2:hard_drive_small'),
