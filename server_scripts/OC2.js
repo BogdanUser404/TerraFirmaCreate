@@ -232,5 +232,232 @@ ServerEvents.recipes(event => {
             C: 'powergrid:empty_circuit'
         }
     );
+    event.shaped(
+        'oc2:redstone_interface_card',
+        [
+            'RRR',
+            'TCT',
+            'III'
+        ],
+        {
+            R: 'minecraft:redstone',
+            T: 'powergrid:bjt_npn',
+            C: 'powergrid:redstone_converter',
+            I: 'kubejs:plastic_ignot',
+            P: ''
+        }
+    );
+    event.shaped(
+        'oc2:file_import_export_card',
+        [
+            'HTH',
+            'TFT',
+            'SSS'
+        ],
+        {
+            T: 'powergrid:bjt_npn',
+            S: 'kubejs:plastic_sheet',
+            F: 'tfc_items:copper_foil',
+            H: 'oc2:hard_drive_medium',
+
+        }
+    );
+    event.shaped(
+        'oc2:sound_card',
+        [
+            ' C ',
+            'TWT',
+            'SSS'
+        ],
+        {
+            T: 'powergrid:bjt_npn',
+            S: 'kubejs:plastic_sheet',
+            C: 'powergrid:device_connector',
+            W: 'powergrid:wire'
+        }
+    );
+    event.shaped(
+        'oc2:redstone_interface',
+        [
+            'RCR',
+            'CAC',
+            'RCR'
+        ],
+        {
+            C: 'oc2:redstone_interface_card',
+            A: 'kubejs:plastic_casing',
+            R: 'minecraft:redstone'
+        }
+    );
+
+    event.shaped(
+        'oc2:network_hub',
+        [
+            'WCW',
+            'CAC',
+            'WCW'
+        ],
+        {
+            C: 'oc2:network_interface_card',
+            A: 'kubejs:plastic_casing',
+            W: 'powergrid:golden_wire'
+        }
+    );
+
+    event.shaped(
+        'oc2:network_cable',
+        [
+            'SSS',
+            'WWW',
+            'SSS'
+        ],
+        {
+            S: 'kubejs:plastic_sheet',
+            W: 'powergrid:golden_wire',
+        }
+    );
+    event.shaped(
+        'oc2:network_connector',
+        [
+            'SSS',
+            'CWC',
+            'SSS'
+        ],
+        {
+            S: 'kubejs:plastic_sheet',
+            W: 'powergrid:golden_wire',
+            C: 'powergrid:device_connector'
+        }
+    );
+    event.shaped(
+        'oc2:bus_cable',
+        [
+            'SSS',
+            'WWW',
+            'SSS'
+        ],
+        {
+            S: 'kubejs:plastic_sheet',
+            W: 'powergrid:wire',
+        }
+    );
+    event.shaped(
+        'oc2:bus_interface',
+        [
+            'SSS',
+            'CWC',
+            'SSS'
+        ],
+        {
+            S: 'kubejs:plastic_sheet',
+            W: 'powergrid:wire',
+            C: 'powergrid:device_connector'
+        }
+    );
+
+    event.shaped(
+        'oc2:keyboard',
+        [
+            ' SS',
+            'SKC',
+            'SSS'
+        ],
+        {
+            S: 'kubejs:plastic_sheet',
+            K: 'simulated:linked_typewriter',
+            C: 'oc2:bus_cable'
+        }
+
+    );
+    event.shaped(
+        'oc2:terminal',
+        [
+            'GS ',
+            'GSC',
+            'GK '
+        ],
+        {
+            S: 'kubejs:plastic_sheet',
+            C: 'oc2:bus_cable',
+            G: 'create:framed_glass_pane',
+            K: 'oc2:keyboard'
+        }
+    );
+
+    event.shaped(
+        'oc2:flash_memory',
+        [
+            'SRS',
+            'SRS',
+            'SRS'
+        ],
+        {
+            S: 'tfc:metal/sheet/steel',
+            R: 'powergrid:relay'
+        }
+    );
+
+    event.shaped(
+        'oc2:floppy',
+        [
+            'PPS',
+            'PSP',
+            'PPP'
+        ],
+        {
+            S: 'tfc:metal/sheet/steel',
+            P: 'minecraft:paper'
+        }
+    );
+
+
+    event.shaped(
+        'oc2:disk_drive',
+        [
+            'SSS',
+            ' FR',
+            'SSS'
+        ],
+        {
+            S: 'tfc:metal/sheet/steel',
+            R: 'powergrid:relay',
+            F: 'oc2:floppy'
+        }
+    );
+
+    event.shaped(
+        'oc2:flash_drive',
+        [
+            'SSS',
+            ' FT',
+            'SSS'
+        ],
+        {
+            S: 'kubejs:plastic_sheet',
+            T: 'powergrid:bjt_npn',
+            F: 'oc2:flash_memory'
+        }
+    );
+
+    event.shaped(
+        'oc2:flash_memory[custom_data={oc2:{image:"oc2:block_devices/flash/riscv.bin"}},dyed_color={rgb:-10585066}]',
+        [
+            'F'
+        ],
+        {
+            F: 'oc2:flash_memory'
+        }
+    );
+
+    event.shaped(
+        'oc2:flash_memory[custom_data={oc2:{image:"oc2:block_devices/flash/z80.bin"}},dyed_color={rgb:-425955}]',
+        [
+            'FL'
+        ],
+        {
+            F: 'oc2:flash_memory',
+            L: 'oc2:floppy'
+        }
+    )
 
 })

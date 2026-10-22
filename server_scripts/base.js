@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create:iron_sheet'});
     event.remove({output: 'create:golden_sheet'});
     event.remove({output: 'create:zinc_ingot'});
+    event.remove({output: 'minecraft:dried_kelp'});
     event.remove({output: 'create:polished_rose_quartz'});
 
     event.remove({output: 'powergrid:zinc_sheet'});
@@ -16,6 +17,9 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({}, 'create:polished_rose_quartz', 'kubejs:silicon_wafer')
     event.replaceOutput({}, 'create:polished_rose_quartz', 'kubejs:silicon_wafer')
+
+    event.replaceInput({}, 'minecraft:dried_kelp', 'rubberworks:rubber_sheet')
+
 
     event.replaceInput({}, 'create:copper_sheet', 'tfc:metal/sheet/copper')
     event.replaceOutput({}, 'create:copper_sheet', 'tfc:metal/sheet/copper')
