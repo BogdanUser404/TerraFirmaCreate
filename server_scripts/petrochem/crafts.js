@@ -3,7 +3,7 @@
 
 ServerEvents.recipes(event => {
     event.remove({'id': 'petrochem:mixing/basic_plastic'})
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintage.pressurizing(
         [ //Output
             Fluid.of('petrochem:plastic')
         ],

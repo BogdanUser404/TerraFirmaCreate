@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         Item.of('tfc:metal/double_ingot/copper'),
         
         [
-            event.recipes.createvintageneoforged.turning(
+            event.recipes.vintage.turning(
                 Item.of('tfc:metal/double_ingot/copper'),
                 Item.of('tfc:metal/double_ingot/copper')
             ),
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
         Item.of('tfc:metal/double_ingot/copper'),
         
         [
-            event.recipes.createvintageneoforged.turning(
+            event.recipes.vintage.turning(
                 Item.of('tfc:metal/double_ingot/copper'),
                 Item.of('tfc:metal/double_ingot/copper')
             ),
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         Item.of('tfc:metal/double_ingot/steel'),
         
         [
-            event.recipes.createvintageneoforged.turning(
+            event.recipes.vintage.turning(
                 Item.of('tfc:metal/double_ingot/steel'),
                 Item.of('tfc:metal/double_ingot/steel')
             ),

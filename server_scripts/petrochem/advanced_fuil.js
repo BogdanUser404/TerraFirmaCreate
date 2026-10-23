@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     }).id('kubejs:petrochem/distilling/rectify_oil_expert');
 
     //VGO Kraking
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintage.pressurizing(
             [ //Output
                 Fluid.of('petrochem:hydrocracked_gasoline', 450),
                 Fluid.of('petrochem:light_diesel', 550),
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
     ).heated().processingTime(200)
 
     //Heavy Diesel Kraking
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintage.pressurizing(
             [ // Output
                 Fluid.of('petrochem:hydrogen_sulfide', 100),
                 Fluid.of('petrochem:desulfurized_heavy_diesel', 950),
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'petrochem:distilling/basic_atmospheric'});
 
     //Kerosene kraking
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintage.pressurizing(
             [ // Output
                 Fluid.of('petrochem:hydrogen_sulfide', 100),
                 Fluid.of('petrochem:desulfurized_kerosene', 950),
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
     }).id('kubejs:petrochem/distilling/flash_naphta');
     
     //Heavy naphta kraking
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintage.pressurizing(
             [ // Output
                 Fluid.of('petrochem:hydrogen_sulfide', 100),
                 Fluid.of('petrochem:desulfurized_heavy_naphta', 900),
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
 
     //Gasoline
     event.remove({ id: 'petrochem:mixing/basic_gasoline' });
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintage.pressurizing(
         //Output
         [
             CreateItem.of('tfcm:metal/sheet/platinum', 0.99),
@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
             Item.of('tfcm:metal/sheet/platinum')
         ]
     ).heated();
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintage.pressurizing(
         //Output
         [
             CreateItem.of('tfcm:metal/sheet/platinum', 0.99),

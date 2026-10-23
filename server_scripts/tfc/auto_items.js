@@ -35,12 +35,12 @@ ServerEvents.recipes(event => {
         const outWire = isPath ? `${outNs}:metal/wire/${metal}` : `${outNs}:${metal}_wire`;
 
         event.recipes.create.pressing(foil, sheet);
-        event.recipes.createvintageneoforged.turning(gear, doubleSheet);
-        event.recipes.createvintageneoforged.turning(Item.of(screw, 20), ingot);
-        event.recipes.createvintageneoforged.turning(Item.of(nail, 20), ingot);
-        event.recipes.createvintageneoforged.turning(Item.of(rivet, 20), ingot);
-        event.recipes.createvintageneoforged.turning(Item.of(rod, 2), ingot);
-        event.recipes.createvintageneoforged.turning(Item.of(outWire, 4), ingot);
+        event.recipes.vintage.turning(gear, doubleSheet);
+        event.recipes.vintage.turning(Item.of(screw, 20), ingot);
+        event.recipes.vintage.turning(Item.of(nail, 20), ingot);
+        event.recipes.vintage.turning(Item.of(rivet, 20), ingot);
+        event.recipes.vintage.turning(Item.of(rod, 2), ingot);
+        event.recipes.vintage.turning(Item.of(outWire, 4), ingot);
         event.recipes.create.compacting(heavySheet, [Ingredient.of(sheet), Ingredient.of(doubleSheet)]).heated();
 
         event.recipes.create.pressing(sheet, doubleIngot);
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
         ).heated();
     });
 
-    event.recipes.createvintageneoforged.turning('create:whisk', 'tfc:metal/ingot/wrought_iron');
-    event.recipes.createvintageneoforged.turning('create:brass_hand', 'tfc:metal/sheet/brass');
+    event.recipes.vintage.turning('create:whisk', 'tfc:metal/ingot/wrought_iron');
+    event.recipes.vintage.turning('create:brass_hand', 'tfc:metal/sheet/brass');
 
 });

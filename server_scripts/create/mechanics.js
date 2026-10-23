@@ -105,8 +105,8 @@ ServerEvents.recipes(event => {
     });
 
     //Mechanic Hammer
-    event.remove({ output: 'createvintageneoforged:helve_hammer' });
-    event.shaped('createvintageneoforged:helve_hammer', [
+    event.remove({ output: 'vintage:helve_hammer' });
+    event.shaped('vintage:helve_hammer', [
         ' NG',
         'DLC',
         ' NG',

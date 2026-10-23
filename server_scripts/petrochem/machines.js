@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         Item.of('tfc_items:steel_heavy_sheet'),
         
         [
-            event.recipes.createvintageneoforged.turning(
+            event.recipes.vintage.turning(
                 Item.of('tfc_items:steel_heavy_sheet'),
                 Item.of('tfc_items:steel_heavy_sheet')
             ),
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         Item.of('petrochem:steel_fluid_tank'),
         
         [
-            event.recipes.createvintageneoforged.turning(
+            event.recipes.vintage.turning(
                 Item.of('petrochem:steel_fluid_tank'),
                 Item.of('petrochem:steel_fluid_tank')
             ),

@@ -3,7 +3,7 @@
 
 ServerEvents.recipes(event => {
 
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintage.pressurizing(
         Fluid.of('modernelements:silicon_fluid'),
         [
             Item.of('tfc:powder/charcoal'),
@@ -32,21 +32,21 @@ ServerEvents.recipes(event => {
                 'kubejs:silicon_wafer',
                 ['kubejs:silicon_wafer', Fluid.of('tfc:metal/antimony', 100)]
             ),
-            event.recipes.createvintageneoforged.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
+            event.recipes.vintage.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
 
             // P layer
             event.recipes.create.filling(
                 'kubejs:silicon_wafer',
                 ['kubejs:silicon_wafer', Fluid.of('tfc:metal/aluminum', 100)]
             ),
-            event.recipes.createvintageneoforged.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
+            event.recipes.vintage.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
             // N Layer
 
             event.recipes.create.filling(
                 'kubejs:silicon_wafer',
                 ['kubejs:silicon_wafer', Fluid.of('tfc:metal/antimony', 100)]
             ),
-            event.recipes.createvintageneoforged.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
+            event.recipes.vintage.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
 
             //Case
             event.recipes.create.cutting('kubejs:silicon_wafer','kubejs:silicon_wafer'),
@@ -68,21 +68,21 @@ ServerEvents.recipes(event => {
                 'kubejs:silicon_wafer',
                 ['kubejs:silicon_wafer', Fluid.of('tfc:metal/aluminum', 100)]
             ),
-            event.recipes.createvintageneoforged.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
+            event.recipes.vintage.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
 
             // P layer
             event.recipes.create.filling(
                 'kubejs:silicon_wafer',
                 ['kubejs:silicon_wafer', Fluid.of('tfc:metal/antimony', 100)]
             ),
-            event.recipes.createvintageneoforged.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
+            event.recipes.vintage.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
             // N Layer
 
             event.recipes.create.filling(
                 'kubejs:silicon_wafer',
                 ['kubejs:silicon_wafer', Fluid.of('tfc:metal/aluminum', 100)]
             ),
-            event.recipes.createvintageneoforged.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
+            event.recipes.vintage.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
 
             //Case
             event.recipes.create.cutting('kubejs:silicon_wafer','kubejs:silicon_wafer'),
@@ -110,13 +110,13 @@ ServerEvents.recipes(event => {
                 'kubejs:silicon_wafer',
                 ['kubejs:silicon_wafer', Fluid.of('tfc:metal/aluminum', 100)]
             ),
-            event.recipes.createvintageneoforged.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
+            event.recipes.vintage.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
             // P layer
             event.recipes.create.filling(
                 'kubejs:silicon_wafer',
                 ['kubejs:silicon_wafer', Fluid.of('tfc:metal/antimony', 100)]
             ),
-            event.recipes.createvintageneoforged.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
+            event.recipes.vintage.polishing('kubejs:silicon_wafer', 'kubejs:silicon_wafer'),
 
             //Case
             event.recipes.create.cutting('kubejs:silicon_wafer','kubejs:silicon_wafer'),

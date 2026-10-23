@@ -3,9 +3,9 @@
 
 ServerEvents.recipes(event => {
     //Lathe
-    event.remove({ output: 'createvintageneoforged:lathe' });
+    event.remove({ output: 'vintage:lathe' });
     event.recipes.create.mechanical_crafting(
-        'createvintageneoforged:lathe',
+        'vintage:lathe',
         [
             'MGGM',
             'CCCC',
@@ -21,9 +21,9 @@ ServerEvents.recipes(event => {
         }
     )
     //Compressor
-    event.remove({ output: 'createvintageneoforged:vacuum_chamber' });
+    event.remove({ output: 'vintage:vacuum_chamber' });
     event.recipes.create.mechanical_crafting(
-        'createvintageneoforged:vacuum_chamber',
+        'vintage:vacuum_chamber',
         [
             'GCCG',
             'MPPM',
@@ -40,9 +40,9 @@ ServerEvents.recipes(event => {
             U: 'petrochem:steel_pump'
         }
     )
-    event.remove({ output: 'createvintageneoforged:belt_grinder' });
+    event.remove({ output: 'vintage:belt_grinder' });
     event.recipes.create.mechanical_crafting(
-        'createvintageneoforged:belt_grinder',
+        'vintage:belt_grinder',
         [
             'BBBB',
             'SMMS',
@@ -54,13 +54,13 @@ ServerEvents.recipes(event => {
             G: 'tfc_items:steel_gear',
             M: 'create:precision_mechanism',
             S: 'create:shaft',
-            B: 'createvintageneoforged:grinder_belt'
+            B: 'vintage:grinder_belt'
         }
     )
 
-    event.remove({output: 'createvintageneoforged:vibrating_table'});
+    event.remove({output: 'vintage:vibrating_table'});
     event.shaped(
-        'createvintageneoforged:vibrating_table',
+        'vintage:vibrating_table',
         [
             'BBB',
             'GSG',

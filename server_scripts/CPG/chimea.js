@@ -4,7 +4,7 @@
 ServerEvents.recipes(event => {
     event.remove({output: 'powergrid:acid'})
 
-    event.recipes.createvintageneoforged.pressurizing(
+    event.recipes.vintagene.pressurizing(
         Fluid.of('powergrid:acid', 100),
         [
             Fluid.of('petrochem:hydrogen', 50),
