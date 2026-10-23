@@ -47,4 +47,21 @@ ServerEvents.recipes(event => {
             R: 'rubberworks:rubber_sheet',
         }
     );
+
+    event.shaped(
+        'create:blaze_burner',
+        [
+            'SRS',
+            'RCR',
+            'HHH'
+        ],
+        {
+            S: '#kubejs:bronze_screws',
+            R: '#kubejs:bronze_rods',
+            H: '#kubejs:bronze_double_sheets',
+            C: '#minecraft:coals'
+        }
+    )
+
+
 });
