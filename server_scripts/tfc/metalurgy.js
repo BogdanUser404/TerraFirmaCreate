@@ -9,20 +9,18 @@ ServerEvents.recipes(event => {
             '#minecraft:coals'
         ]
     ).heated()
-    event.recipes.create.mixing(
-        Item.of('tfc:metal/ingot/pig_iron'),
-        [
-            Fluid.of('tfc:metal/cast_iron'),
-            Item.of('tfc:powder/flux')
-        ]
-    ).heated()
 
     event.recipes.create.pressing(
-        Item.of('tfc:metal/ingot/pig_iron'),
         Item.of('tfc:metal/ingot/high_carbon_steel'),
+        Item.of('tfc:metal/ingot/pig_iron'),
     )
     event.recipes.create.pressing(
+        Item.of('tfc:metal/ingot/steel'),
         Item.of('tfc:metal/ingot/high_carbon_steel'),
-        Item.of('tfc:metal/ingot/steel')
+    )
+
+    event.recipes.vintage.turning(
+        Item.of('minecraft:bucket'),
+        Item.of('tfc:metal/double_sheet/wrought_iron')
     )
 })

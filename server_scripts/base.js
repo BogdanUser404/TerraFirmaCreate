@@ -24,6 +24,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, 'create:copper_sheet', 'tfc:metal/sheet/copper')
     event.replaceOutput({}, 'create:copper_sheet', 'tfc:metal/sheet/copper')
 
+    event.replaceInput({}, 'minecraft:copper_ingot', 'tfc:metal/ingot/copper')
+    event.replaceOutput({}, 'minecraft:copper_ingot', 'tfc:metal/ingot/copper')
+
     event.replaceInput({}, 'create:brass_sheet', 'tfc:metal/sheet/brass')
     event.replaceOutput({}, 'create:brass_sheet', 'tfc:metal/sheet/brass')
 
@@ -49,4 +52,24 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, 'create:iron_sheet', 'tfc:metal/sheet/wrought_iron')
     event.replaceOutput({}, 'create:iron_sheet', 'tfc:metal/sheet/wrought_iron')
     event.remove({id: "create:press"});
+
+
+    event.shaped(
+        'petrochem:steel_ingot',
+        [
+            'I',
+        ],
+        {
+            I: 'tfc:metal/ingot/steel',
+        }
+    ),
+    event.shaped(
+        'tfc:metal/ingot/steel',
+        [
+            'I',
+        ],
+        {
+            I: 'petrochem:steel_ingot'
+        }
+    )
 })

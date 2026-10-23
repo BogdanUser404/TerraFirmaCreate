@@ -120,4 +120,22 @@ ServerEvents.recipes(event => {
             ),
         ]
     ).transitionalItem('kubejs:plastic_sheet');
+
+    event.shaped(
+        'simulated:engine_assembly',
+        [
+            'GSG',
+            'GSG',
+            'GGG',
+        ],
+        {
+            G: 'tfc_items:wrought_iron_gear',
+            S: 'create:shaft'
+        }
+    );
+
+    event.blasting(
+        'minecraft:smooth_stone',
+        '#c:cobblestones/normal'
+    )
 });
