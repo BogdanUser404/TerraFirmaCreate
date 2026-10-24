@@ -1,0 +1,13 @@
+As a special exception to the GNU Affero General Public License version 3 (AGPLv3), 
+the copyright holders of this Modpack give you permission to link this Modpack 
+with the unmodified Minecraft base game (including Mojang's official code, 
+libraries, and binaries) and any third-party Minecraft mods included in this distribution.
+
+The requirements of the AGPLv3 regarding source code disclosure do not apply 
+to the Minecraft base game or to these third-party mods, provided they are 
+distributed in their original, unmodified forms under their respective licenses. 
+
+This exception applies solely to the interaction between this Modpack's custom 
+files (such as configuration files, KubeJS/CraftTweaker scripts, custom quests) 
+and the aforementioned software. Your modified versions of this Modpack's custom 
+files themselves remain strictly subject to the AGPLv3.
