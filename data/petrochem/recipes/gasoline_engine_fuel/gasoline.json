@@ -1,0 +1,12 @@
+{
+  "type": "petrochem:gasoline_engine_fuel",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 1,
+      "tag": "c:gasoline"
+    }
+  ],
+  "processing_time": 12,
+  "results": []
+}

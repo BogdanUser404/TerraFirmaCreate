@@ -1,0 +1,10 @@
+{
+  "type": "petrochem:pumpjack",
+  "biome": "#minecraft:is_overworld",
+  "results": [
+    {
+      "amount": 100,
+      "id": "petrochem:petroleum"
+    }
+  ]
+}
