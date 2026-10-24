@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4fc0ee7706c62f1b"
+	group: "207ACA0967235873"
+	icon: {
+		id: "tfc:wood/sapling/ash"
+	}
+	id: "4FC0EE7706C62F1B"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_text_until_complete: false
+			icon_scale: 2.0d
+			id: "7A43805AEEEBC303"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "347D325320D9EB3A"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7A43805AEEEBC303"]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: false
+			icon: {
+				id: "oc2:computer"
+			}
+			id: "67AEE090DD09ACE7"
+			optional: true
+			tasks: [{
+				id: "7E86AF5E9A46338D"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,376 @@
+{
+  "chapter.0CEE9C2DEA8509BF.title": "Create Powergrid",
+  "chapter.17A9A326CF55378E.title": "Create Petrochem",
+  "chapter.234D6E8B7AB8E38C.chapter_subtitle": ["A Humble Beginning"],
+  "chapter.234D6E8B7AB8E38C.title": "Stone Age",
+  "chapter.4FC0EE7706C62F1B.title": "About the Modpack",
+  "chapter.64977E4460FABB21.title": "Create!",
+  "chapter.77E972A4F730B9B7.title": "OpenComputers 2",
+  "chapter_group.064399226B166BCF.title": "Mods in the Pack",
+  "chapter_group.207ACA0967235873.title": "About the Pack",
+  "chapter_group.65F64E748C40C093.title": "Basics",
+  "quest.013E0C988475E37F.quest_desc": [
+    "Kaolinite clay appears where the average annual temperature is above +18C, rainfall is above 350mm, and on elevated terrain.",
+    "",
+    "I recommend bringing as much as you can, since only 20% of the clay turns into powder.",
+    "",
+    "If you're in the tundra....... I can only wish you luck."
+  ],
+  "quest.013E0C988475E37F.quest_subtitle": "8 hours later.......",
+  "quest.013E0C988475E37F.title": "Kaolinite",
+  "quest.0201E31AD7DF8499.quest_desc": ["The foundation of the whole mod is the Empty Computer Block."],
+  "quest.0201E31AD7DF8499.quest_subtitle": "A computer does Compute",
+  "quest.036D83C3F7E86E7D.title": "If You Found the Wrong Copper",
+  "quest.05D59E20C875647A.quest_subtitle": "Memory remembers",
+  "quest.06CD84A0E64A3EAF.quest_desc": [
+    "Now you can build an automatic drill.",
+    "But don't forget that cave-ins exist :).",
+    "Drills run on pushing force.",
+    "If you want, you can also make a drill train."
+  ],
+  "quest.06CD84A0E64A3EAF.quest_subtitle": "The drill drills",
+  "quest.06CD84A0E64A3EAF.title": "Auto-Drill!",
+  "quest.096045AE02B62C7F.quest_desc": [
+    "This thing converts FE into CPG energy.",
+    "Anything more is unnecessary."
+  ],
+  "quest.096045AE02B62C7F.quest_subtitle": "You need to put the LPG somewhere, right?",
+  "quest.0B1824CDFFB868BF.quest_desc": [
+    "A very useful thing.",
+    "You'll definitely like how convenient it is for making alloys.",
+    "",
+    "And you can also automate casting.",
+    "",
+    "You can pour liquids into the casting table with a pipe, and if you place a mold, you can cast.",
+    "",
+    "Casting can also be automated with a spout."
+  ],
+  "quest.0B1824CDFFB868BF.quest_subtitle": "The crucible melts",
+  "quest.0B1824CDFFB868BF.title": "Crucible crucible........",
+  "quest.0C7F24F7055D3179.quest_subtitle": "The disk drive runs disks",
+  "quest.0D596CA496B6F131.quest_desc": ["Feed ethylene into the compressor in pressurizing mode, and heat it."],
+  "quest.0D596CA496B6F131.title": "Step 3A - Polymerization",
+  "quest.0E0CFDDCC4F06FC6.title": "Step 3A - Cracking",
+  "quest.0E7FB3BD092FECE7.quest_desc": [
+    "You can find graphite deep underground or near the surface.",
+    "Just wander around the world and through caves."
+  ],
+  "quest.0E7FB3BD092FECE7.quest_subtitle": "Graphite is graphitic",
+  "quest.0E7FB3BD092FECE7.title": "Graphite",
+  "quest.1008D732D84BB141.quest_desc": [
+    "Congratulations, these are your first machines!",
+    "They will make your life significantly easier.",
+    "They can automatically make alloys, increase oil yield, and do much more."
+  ],
+  "quest.1008D732D84BB141.title": "First Machines!",
+  "quest.1795B31FD0E84CD2.quest_desc": [
+    "You can use it both for burning in a generator and for making glue.",
+    "",
+    "Though I don't know why you'd need that much glue."
+  ],
+  "quest.1795B31FD0E84CD2.title": "Kerosene",
+  "quest.1876CE1D294E2522.quest_desc": [
+    "Alright.... let's begin!",
+    "",
+    "Your main tasks:",
+    "",
+    "Find clay",
+    "Find copper",
+    "Don't die",
+    "",
+    "It will also help if you find one of these three:",
+    "",
+    "Bismuth + Zinc",
+    "Gold + Silver",
+    "Tin"
+  ],
+  "quest.1876CE1D294E2522.title": "Stone Age",
+  "quest.18F319A2BF98BF4B.quest_desc": [
+    "The grinder polishes.....",
+    "In this version of the pack it's useless (almost)."
+  ],
+  "quest.18F319A2BF98BF4B.quest_subtitle": "The grinder grinds",
+  "quest.18F319A2BF98BF4B.title": "Belt Grinder",
+  "quest.1B8ED81E0D6BCD75.title": "2 Tools",
+  "quest.1C5FD0F9C49AFED5.quest_desc": [
+    "A regular tree farm.......",
+    "Useful if you're tired of chopping by hand."
+  ],
+  "quest.1C5FD0F9C49AFED5.quest_subtitle": "The saw saws",
+  "quest.1C5FD0F9C49AFED5.title": "Tree Farm",
+  "quest.1D4AC7883630DB9C.quest_desc": [
+    "The only mandatory device at this stage of progression.",
+    "It lets you power the electrolyzer from the CPG grid."
+  ],
+  "quest.1D4AC7883630DB9C.quest_subtitle": "The adapter connects",
+  "quest.1D66226E5241EAAB.quest_desc": [
+    "Your first rubber.",
+    "I hope you were lucky enough to spawn in the tropics.",
+    "If not, look up guides for Create Aeronautics and build transport.",
+    "",
+    "I recommend collecting saplings if you can't travel."
+  ],
+  "quest.1D66226E5241EAAB.quest_subtitle": "Rubber stretches",
+  "quest.1D66226E5241EAAB.title": "Rubber",
+  "quest.2210241251C69097.quest_subtitle": "The disk spins",
+  "quest.27ABB8EB91CA5B9F.quest_desc": [
+    "Maybe it's time to think about protecting your grid from overvoltage and overcurrent.",
+    "",
+    "Only the spark gap has a minimum voltage of 1000V.",
+    "Figure something out with that yourself."
+  ],
+  "quest.27ABB8EB91CA5B9F.quest_subtitle": "Because burning wires aren't cool",
+  "quest.27ABB8EB91CA5B9F.title": "Grid Protection",
+  "quest.27D1214CFCC31C66.quest_desc": [
+    "Because filling your inventory isn't cool.",
+    "There's a section on leather tanning in your field guide."
+  ],
+  "quest.27D1214CFCC31C66.title": "Backpack",
+  "quest.280A79EA19B17D23.title": "Step 1 - Desalination",
+  "quest.2A1DBBA7CDF2D6A0.quest_desc": [
+    "These are your first pipes.",
+    "I hope you crafted no more than 2-3.",
+    "Crafting from leather is just robbery.",
+    "So I recommend having rubber.",
+    "If you don't have rubber, build transport and head to the tropics!"
+  ],
+  "quest.2A1DBBA7CDF2D6A0.quest_subtitle": "The pipe pipes",
+  "quest.2A1DBBA7CDF2D6A0.title": "Fluids",
+  "quest.2AADA98E84D0BB22.quest_desc": [
+    "This is a windmill.",
+    "It's optional, but it can help power your workshop."
+  ],
+  "quest.2AADA98E84D0BB22.quest_subtitle": "The wind blows",
+  "quest.2AADA98E84D0BB22.title": "If Water Is No Longer Enough",
+  "quest.2B78823520F0DC9B.quest_desc": [
+    "You can replace all your lamps with electric ones.",
+    "You no longer have to refuel them or hammer them by hand.",
+    "",
+    "Just make sure the voltage in your grid is 110-120V, otherwise the lamps will either burn out or draw too much current."
+  ],
+  "quest.2B78823520F0DC9B.quest_subtitle": "The lamp shines",
+  "quest.2B78823520F0DC9B.title": "Goodbye, Lanterns!",
+  "quest.2B9C7BCA5C1002B4.quest_desc": ["Cables, sockets, and distribution boxes make it much easier to run networks and create aesthetic connections."],
+  "quest.2B9C7BCA5C1002B4.quest_subtitle": "You want it to look good, right?",
+  "quest.2B9C7BCA5C1002B4.title": "Cable Management",
+  "quest.2D8B623D084B227B.title": "Step 5A - Hydrocracking",
+  "quest.34E8D61ABAC34145.title": "Step 4 - Desulfurization",
+  "quest.39B45DAD5639D581.quest_desc": [
+    "If you've completed this quest, you've almost finished 0.1.",
+    "Congratulations!",
+    "",
+    "And by the way, it greatly simplifies crafting the electronic lamp and precision mechanism."
+  ],
+  "quest.39B45DAD5639D581.quest_subtitle": "The transistor switches",
+  "quest.39B45DAD5639D581.title": "Transistor",
+  "quest.3B2FACE47D974314.title": "Tools",
+  "quest.3B8965F9CC5E636C.quest_desc": ["Feed oil into the atmospheric distillation column."],
+  "quest.3B8965F9CC5E636C.title": "Step 3 - Separation",
+  "quest.3C3C9F3578440F88.quest_subtitle": "Hard drive - Hard",
+  "quest.3DA1049FD97CD2A9.quest_desc": [
+    "You've made your first oil pump!",
+    "You can place it anywhere in the overworld.",
+    "",
+    "Pump efficiency drops as you place more of them."
+  ],
+  "quest.3DA1049FD97CD2A9.title": "OIL",
+  "quest.3E27148E6FED4A07.quest_desc": [
+    "By the way, you've completed the pack as of 0.1.",
+    "This part is considered the goal of the modpack for 0.1.",
+    "",
+    "",
+    "Experiment, create, optimize!"
+  ],
+  "quest.3E27148E6FED4A07.quest_subtitle": "Have you ever installed Linux in your life? Here it's a mod!",
+  "quest.3E27148E6FED4A07.title": "Tier 2 - RISC-V",
+  "quest.3F15E3EA2B4D5515.quest_desc": [
+    "How to fire clay is explained in your field guide.",
+    "Clay shaping recipes are in EMI."
+  ],
+  "quest.3F15E3EA2B4D5515.title": "Molds",
+  "quest.411782C5CC1D6ED2.title": "Asphalt",
+  "quest.436044F31B40F598.quest_subtitle": "Flash drive reader",
+  "quest.436A4D5A440B001D.quest_desc": [
+    "This machine replaces the anvil in every area except tools.",
+    "You can breathe a sigh of relief if you're tired of forging!"
+  ],
+  "quest.436A4D5A440B001D.quest_subtitle": "The lathe turns",
+  "quest.436A4D5A440B001D.title": "Goodbye, Forging!",
+  "quest.44965014FF7BAECE.quest_desc": [
+    "Make a blast furnace and steel!",
+    "",
+    "White cast iron can be pumped out with a pump.",
+    "Insert items with throwers or chutes.",
+    "",
+    "This will open up endless possibilities (almost)!"
+  ],
+  "quest.44965014FF7BAECE.quest_subtitle": "Hot",
+  "quest.451BEE178A28F283.quest_desc": [
+    "By the way.",
+    "Old anvils can be melted down.",
+    "To do this, place the anvil in the heating slot of a charcoal forge and put a vessel in the mold slot."
+  ],
+  "quest.451BEE178A28F283.title": "The Anvil Again",
+  "quest.4545495202C589FF.quest_subtitle": "A lamp for the little ones",
+  "quest.45F9002D02D98652.title": "Step 2 - Rectification",
+  "quest.4DEF94BF7E5AD5A3.quest_desc": [
+    "Grounding lets you run current over long distances through the ground with a single wire.",
+    "And protect circuits.",
+    "",
+    "Figure out something yourself, in short."
+  ],
+  "quest.4DEF94BF7E5AD5A3.quest_subtitle": "Because cool people run one wire",
+  "quest.4DEF94BF7E5AD5A3.title": "Grounding",
+  "quest.4F2739CBF44F0A3C.quest_desc": ["You probably found native copper; if not, check the quests."],
+  "quest.4F2739CBF44F0A3C.title": "Copper",
+  "quest.4F7B5CDD1EF66E77.quest_subtitle": "Memory remembers.",
+  "quest.4F7B5CDD1EF66E77.title": "RAM",
+  "quest.4FEC1DBD5261228C.quest_desc": ["Your first processor."],
+  "quest.4FEC1DBD5261228C.quest_subtitle": "The processor thinks.",
+  "quest.4FEC1DBD5261228C.title": "Tier 1 - Z80",
+  "quest.516B31F130DB7EDD.quest_desc": [
+    "Congratulations!",
+    "You've reached the Bronze Age!",
+    "Here's a small gift from me; you'll find it useful.",
+    "",
+    "Your choice of machines is simply huge.",
+    "Your goal will be to make 2 presses, a blaze burner, a mixer, a depot, and 2 basins."
+  ],
+  "quest.516B31F130DB7EDD.title": "Create Bronze",
+  "quest.537860ECE2EAC241.quest_desc": ["Just steel from Petrochem (I couldn't replace it in the recipe)."],
+  "quest.537860ECE2EAC241.quest_subtitle": "Steel is steel",
+  "quest.537860ECE2EAC241.title": "Steel",
+  "quest.576E8CC0F595C8F8.title": "If You Found Malachite",
+  "quest.57A25964624CFB60.quest_desc": [
+    "Build a generator.....",
+    "The schematic is in Create's ponder scenes."
+  ],
+  "quest.57A25964624CFB60.quest_subtitle": "The generator generates",
+  "quest.57A25964624CFB60.title": "Generator",
+  "quest.57FBA2A0C8721CB0.quest_desc": [
+    "Unlike regular TFC, you have 2 ways to get bloom.",
+    "",
+    "1. Put 100mB of gray cast iron into a mixer.",
+    "2. Build a bloomery.",
+    "",
+    "I recommend the first method."
+  ],
+  "quest.57FBA2A0C8721CB0.title": "Bloom",
+  "quest.5A081FC4E78A5BC1.quest_subtitle": "Brick, bricky",
+  "quest.5EADEA9F9185A158.quest_subtitle": "If you don't want to wait for thunderstorms anymore",
+  "quest.5F2A74DB7FFA22B0.quest_desc": [
+    "This shouldn't have taken you long.",
+    "For progression you need to mold and fire:",
+    "",
+    "A pickaxe mold",
+    "A saw mold",
+    "A vessel",
+    "An ingot mold",
+    "",
+    "I strongly recommend molding:",
+    "2-3 jugs",
+    "A sword mold",
+    "A large vessel"
+  ],
+  "quest.5F2A74DB7FFA22B0.title": "Clay",
+  "quest.6011DD265BD136CF.quest_desc": [
+    "This is your first power!",
+    "Place them on a river and collect rotation.",
+    "Or you can set them up like in vanilla Create."
+  ],
+  "quest.6011DD265BD136CF.title": "First Power",
+  "quest.628AE367A96B4E91.quest_desc": ["Mix light and heavy diesel in a mixer."],
+  "quest.628AE367A96B4E91.title": "Diesel",
+  "quest.65C6203733D716E3.quest_subtitle": "The compressor compresses",
+  "quest.66B18B0DB92703BC.title": "Plastic",
+  "quest.67AEE090DD09ACE7.quest_desc": [
+    "Hi.",
+    "The modpack has several main mods:",
+    "Create",
+    "TerraFirmaCraft",
+    "",
+    "A very useful mod, OpenComputers 2 (Reimagined).",
+    "You'll learn more about it when you get to it."
+  ],
+  "quest.67AEE090DD09ACE7.title": "Mods!",
+  "quest.692A3728292076AF.quest_desc": [
+    "Finally.... you got iron.",
+    "If you aren't tired of forging by now, you're either a genius or insane.",
+    "But you can build a lathe and free yourself completely from forging!",
+    "(Assuming you've mastered glassmaking, of course, so I recommend making lots of bottles.)"
+  ],
+  "quest.692A3728292076AF.title": "Iron!",
+  "quest.6C744620CAC098CB.quest_desc": [
+    "Your first computer!",
+    "This will be a test of your factory.",
+    "",
+    "The quest is optional.",
+    "If you're interested, I can give links to guides:",
+    "",
+    "https://emu80.org/files/docs/um0080.pdf (English)"
+  ],
+  "quest.6C744620CAC098CB.quest_subtitle": "The computer does Compute",
+  "quest.6C744620CAC098CB.title": "Computer",
+  "quest.6D01F4FE63D416B7.title": "Coke",
+  "quest.6F8741D2DC89F7CE.quest_desc": [
+    "Food farm.",
+    "If you live in the tropics, build it on the surface.",
+    "If you live in a northern or polar climate (what are you doing there??), build it at bedrock level; the temperature there is fixed at +15C."
+  ],
+  "quest.6F8741D2DC89F7CE.quest_subtitle": "The harvester harvests",
+  "quest.6F8741D2DC89F7CE.title": "Food Farm",
+  "quest.749811976B70E769.quest_desc": [
+    "Congratulations!!!",
+    "You found kaolinite and graphite.",
+    "Not everyone does that.",
+    "",
+    "I'll give you a gift for your collection of unusual things."
+  ],
+  "quest.749811976B70E769.quest_subtitle": "Clay, clayey",
+  "quest.749811976B70E769.title": "FINALLY!!!",
+  "quest.74B67E0DA9C016B3.quest_desc": ["It &lshould&r speed up plant growth."],
+  "quest.74B67E0DA9C016B3.quest_subtitle": "Phytolamp",
+  "quest.778EF00065EFD6BB.quest_desc": [
+    "To get gasoline, you need to pour hydrocracked gasoline or desulfurized heavy naphtha into the compressor.",
+    "Put in a platinum sheet.",
+    "Turn the compressor to pressurizing mode, and heat it."
+  ],
+  "quest.778EF00065EFD6BB.title": "Gasoline",
+  "quest.77C1C70B85DFE8F9.quest_desc": [
+    "These things should be useful to you.",
+    "Given the price of shafts and the inconvenience of laying out gears."
+  ],
+  "quest.77C1C70B85DFE8F9.quest_subtitle": "If you're tired of dragging 200 shafts",
+  "quest.77C1C70B85DFE8F9.title": "Engine",
+  "quest.7A43805AEEEBC303.quest_desc": [
+    "Hi.",
+    "This version was made by one person.",
+    "I hope you like it.",
+    "",
+    "If you're interested, there's a Discord:",
+    "https://discord.gg/JbGX4QVRtU"
+  ],
+  "quest.7A43805AEEEBC303.quest_subtitle": "A lone developer in the field",
+  "quest.7A43805AEEEBC303.title": "Welcome to TerraFirmaCreate",
+  "quest.7BE0283D3CC2573D.quest_desc": [
+    "Mix 20mB of tin and 180mB of copper to get bronze.",
+    "This is a key stage in the modpack!"
+  ],
+  "quest.7BE0283D3CC2573D.title": "2 Tools Again",
+  "quest.7C440519CA58633D.quest_desc": ["Get used to finding 14 ingots of something......."],
+  "quest.7C440519CA58633D.title": "Anvil",
+  "quest.7DC2E7F0909F278D.title": "Step 4B - Vacuum Separation",
+  "quest.7E97A03CAAF25C04.quest_desc": ["Here I recommend making a bronze pickaxe and a geological hammer."],
+  "quest.7E97A03CAAF25C04.title": "2 Tools Again",
+  "quest.7FA1AFFAC709BD94.quest_desc": [
+    "If you've made rubber and have enough copper, you can start building a steam engine.",
+    "Vanilla Create schematics still work.",
+    "",
+    "A small gift for reaching steam."
+  ],
+  "quest.7FA1AFFAC709BD94.quest_subtitle": "Hissing......",
+  "quest.7FA1AFFAC709BD94.title": "Steam!!!!",
+  "task.395F066D08670E81.title": "Start!",
+  "task.47393546BC9734F5.title": "Stone Age",
+  "task.7E86AF5E9A46338D.title": "Got it"
+}

@@ -1,0 +1,117 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "opencomputers_2"
+	group: "064399226B166BCF"
+	icon: {
+		id: "oc2:computer"
+	}
+	id: "77E972A4F730B9B7"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0201E31AD7DF8499"
+			size: 3.0d
+			tasks: [{
+				id: "1DDE5E153444813C"
+				item: { count: 1, id: "oc2:computer" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0201E31AD7DF8499"]
+			id: "4FEC1DBD5261228C"
+			size: 2.0d
+			tasks: [{
+				id: "33E4A47F583A0E13"
+				item: { count: 1, id: "oc2:cpu_z80" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FEC1DBD5261228C"]
+			id: "4F7B5CDD1EF66E77"
+			tasks: [{
+				count: 4L
+				id: "4C6E81C649C79437"
+				item: { count: 1, id: "oc2:memory_small" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FEC1DBD5261228C"]
+			id: "3C3C9F3578440F88"
+			tasks: [{
+				id: "6B6516708CF3AB25"
+				item: { count: 1, id: "oc2:hard_drive_small" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FEC1DBD5261228C"]
+			id: "0C7F24F7055D3179"
+			tasks: [{
+				id: "5EC242960A84B93B"
+				item: { count: 1, id: "oc2:disk_drive" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4FEC1DBD5261228C"]
+			id: "3E27148E6FED4A07"
+			size: 2.0d
+			tasks: [{
+				id: "5A105BE835B65D23"
+				item: { count: 1, id: "oc2:cpu_riscv" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E27148E6FED4A07"]
+			id: "05D59E20C875647A"
+			tasks: [{
+				id: "1FB56782D401D289"
+				item: { count: 1, id: "oc2:memory_medium" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E27148E6FED4A07"]
+			id: "2210241251C69097"
+			tasks: [{
+				id: "18B1139D4DC7B79F"
+				item: { count: 1, id: "oc2:hard_drive_medium" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E27148E6FED4A07"]
+			id: "436044F31B40F598"
+			tasks: [{
+				id: "496C3AF3B7AA99AB"
+				item: { count: 1, id: "oc2:flash_drive" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+}

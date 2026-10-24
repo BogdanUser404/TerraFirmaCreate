@@ -1,0 +1,324 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_petrochem"
+	group: "064399226B166BCF"
+	icon: {
+		id: "petrochem:medium_engine"
+	}
+	id: "17A9A326CF55378E"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "petrochem:pumpjack_arm"
+			}
+			id: "3DA1049FD97CD2A9"
+			shape: "octagon"
+			size: 4.0d
+			tasks: [
+				{
+					id: "07E16C733373A541"
+					item: { count: 1, id: "petrochem:pumpjack_arm" }
+					type: "item"
+				}
+				{
+					id: "4BE439F4D8F3752F"
+					item: { count: 1, id: "petrochem:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "436EA4010F3C1B8E"
+					item: { count: 1, id: "petrochem:pumpjack_well" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DA1049FD97CD2A9"]
+			id: "280A79EA19B17D23"
+			size: 3.0d
+			tasks: [{
+				id: "4C3016D62FA4AD0F"
+				item: { count: 1, id: "petrochem:desalted_oil_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["280A79EA19B17D23"]
+			icon: {
+				id: "petrochem:oil_bucket"
+			}
+			id: "45F9002D02D98652"
+			size: 3.0d
+			tasks: [
+				{
+					id: "188608CC3DDD911F"
+					item: { count: 1, id: "petrochem:light_naphta_bucket" }
+					type: "item"
+				}
+				{
+					id: "6C96F9B59C3B8011"
+					item: { count: 1, id: "petrochem:lpg_bucket" }
+					type: "item"
+				}
+				{
+					id: "2F159D65EBE5EA85"
+					item: { count: 1, id: "petrochem:light_naphta_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["45F9002D02D98652"]
+			id: "0E0CFDDCC4F06FC6"
+			size: 2.0d
+			tasks: [{
+				id: "2950073229491A83"
+				item: { count: 1, id: "modernelements:benzene_fluid_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0E0CFDDCC4F06FC6"]
+			id: "0D596CA496B6F131"
+			size: 2.0d
+			tasks: [{
+				id: "6E852607318D87A2"
+				item: { count: 1, id: "petrochem:plastic_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["45F9002D02D98652"]
+			icon: {
+				id: "petrochem:kerosene_bucket"
+			}
+			id: "3B8965F9CC5E636C"
+			size: 3.0d
+			tasks: [
+				{
+					id: "6915EA932CE37D38"
+					item: { count: 1, id: "petrochem:kerosene_bucket" }
+					type: "item"
+				}
+				{
+					id: "6861E56D1AF2A530"
+					item: { count: 1, id: "petrochem:heavy_naphta_bucket" }
+					type: "item"
+				}
+				{
+					id: "5D341917FAC0FEBB"
+					item: { count: 1, id: "petrochem:oil_residue_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0D596CA496B6F131"]
+			id: "66B18B0DB92703BC"
+			tasks: [{
+				id: "150582B1B2915A0F"
+				item: { count: 1, id: "kubejs:plastic_ignot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3B8965F9CC5E636C"]
+			icon: {
+				id: "petrochem:gasoline_bucket"
+			}
+			id: "34E8D61ABAC34145"
+			size: 3.0d
+			tasks: [
+				{
+					fluid: {
+						amount: 1000
+						id: "petrochem:desulfurized_kerosene"
+					}
+					id: "07281DA5EF1536D1"
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "petrochem:desulfurized_heavy_naphta"
+					}
+					id: "49559DF0B6120F47"
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "petrochem:desulfurized_heavy_diesel"
+					}
+					id: "144F30353BAEAD4A"
+					type: "fluid"
+				}
+			]
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3B8965F9CC5E636C"]
+			icon: {
+				id: "petrochem:heavy_gas_oil_bucket"
+			}
+			id: "7DC2E7F0909F278D"
+			size: 2.0d
+			tasks: [
+				{
+					fluid: {
+						amount: 1000
+						id: "petrochem:heavy_oil_residue"
+					}
+					id: "45085E43199D4303"
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "petrochem:fuel_oil"
+					}
+					id: "5C9A4D6E12616C7B"
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "petrochem:heavy_gas_oil"
+					}
+					id: "321B48753A6DBF0C"
+					type: "fluid"
+				}
+			]
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7DC2E7F0909F278D"]
+			id: "6D01F4FE63D416B7"
+			tasks: [{
+				id: "0396C6EAC593E9CB"
+				item: { count: 1, id: "petrochem:petroleum_coke" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7DC2E7F0909F278D"]
+			id: "411782C5CC1D6ED2"
+			tasks: [{
+				id: "34078F193E82D3AA"
+				item: { count: 1, id: "petrochem:asphalt" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"6D01F4FE63D416B7"
+				"7DC2E7F0909F278D"
+			]
+			id: "5F8B793FEDD718BD"
+			tasks: [{
+				id: "6B8A249A17ECA57E"
+				item: { count: 1, id: "petrochem:blaze_candy" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7DC2E7F0909F278D"]
+			icon: {
+				id: "petrochem:diesel_bucket"
+			}
+			id: "2D8B623D084B227B"
+			size: 2.0d
+			tasks: [
+				{
+					fluid: {
+						amount: 1000
+						id: "petrochem:hydrocracked_gasoline"
+					}
+					id: "044070858C6619C6"
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "petrochem:light_diesel"
+					}
+					id: "4537042D27E6CA18"
+					type: "fluid"
+				}
+			]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2D8B623D084B227B"
+				"34E8D61ABAC34145"
+			]
+			id: "628AE367A96B4E91"
+			tasks: [{
+				id: "75DD279E673F2ED9"
+				item: { count: 1, id: "petrochem:diesel_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"2D8B623D084B227B"
+				"34E8D61ABAC34145"
+			]
+			id: "778EF00065EFD6BB"
+			tasks: [{
+				id: "17EF12B39A7A8902"
+				item: { count: 1, id: "petrochem:gasoline_bucket" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["34E8D61ABAC34145"]
+			icon: {
+				id: "petrochem:kerosene_bucket"
+			}
+			id: "1795B31FD0E84CD2"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "petrochem:desulfurized_kerosene"
+				}
+				id: "56A348C5339E035F"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: 22.5d
+		}
+	]
+}
